@@ -51,15 +51,27 @@
       </amp-story-grid-layer>
     </amp-story-page>
     <!-- Slide 3 -->
-    <amp-story-page id="page3">
-      <amp-story-grid-layer template="fill">
-        <amp-img src="1.jpg" width="720" height="1280" layout="responsive"></amp-img>
-      </amp-story-grid-layer>
-      <amp-story-grid-layer template="vertical">
-        <h1>Slide 3</h1>
-        <p>And this is the final slide of the story.</p>
-      </amp-story-grid-layer>
-    </amp-story-page>
+    
+
+<!-- Slide 3 -->
+<amp-story-page class="slide" auto-advance-after="" id="page11">
+  <amp-story-grid-layer template="fill" style="background-color:#fe394a">
+    <amp-img tabindex="0" height="1024" width="768" layout="fixed" src="https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/08/cropped-ghulam-haid.jpg" alt="फिल्म में सीमा की एक्टिंग पर सऊदी से पति गुलाम ने कही ये बात"></amp-img>
+  </amp-story-grid-layer>
+  <amp-story-grid-layer class="align-end" template="vertical">
+    <div animate-in-duration="3s" animate-in-delay=".5s" animate-in="fade-in" class="inner-align-end-next last-slide-con">
+      <h2>Next: फिल्म में सीमा की एक्टिंग पर सऊदी से पति गुलाम ने कही ये बात</h2>
+    </div>
+  </amp-story-grid-layer>
+  <amp-story-cta-layer class="align-end">
+    <!-- Directly redirect to the next story -->
+    <a role="link" target="_top" href="https://sarkariexamz.in/web/web-stories/movies/index-2.php">
+      <p class="cta_link-next">Find out More..</p>
+    </a>
+  </amp-story-cta-layer>
+</amp-story-page>
+    
+    
   </amp-story>
 </body>
 </html>
